@@ -1,0 +1,17 @@
+[project]
+name = "filesystem"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.4.1",
+    "pandas>=2.2.3",
+    "python-docx>=1.1.2",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
